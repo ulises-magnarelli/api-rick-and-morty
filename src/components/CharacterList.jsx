@@ -46,7 +46,7 @@ const CharacterList = () => {
       ) : (
         <div className="row justify-content-center">
           {characters.map((character) => (
-            <div className="col-md-4 col-sm-6 col-12 d-flex align-items-stretch" key={character.id}>
+            <div className="col-md-4 col-sm-6 col-12 d-flex align-items-stretch justify-content-center" key={character.id}>
               <Character character={character} />
             </div>
           ))}
